@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serverless Music App</title>
+  <link rel="icon" href="https://cdn3d.iconscout.com/3d/free/thumb/free-music-5148289-4299205.png?f=webp">
+  <style>
+    body {
+      background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210918/pngtree-note-purple-gradient-watercolor-symbol-decorates-background-image_903017.png");
+      background-repeat: no-repeat;
+      background-size: cover; 
+      margin: 0;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      text-align: center;
+      color: blueviolet;
+      margin-bottom: 30px;
+    }
+
+    .audio-container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+.audio-container:hover {
+  transform: translateY(-5px); /* Move the container up on hover */
+}
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 2px solid #fff;
+    }
+
+    p {
+      margin: 0;
+      color: blueviolet;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    audio {
+      margin-left: auto;
+    }
+
+    .audio-players {
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+      justify-content: center; /* Center items horizontally */
+      gap: 20px; /* Add spacing between audio players */
+    }
+  </style>
+</head>
+<body>
+  <h1>TELUGU SONGS</h1>
+
+  <!-- Container for audio players -->
+  <div class="audio-players">
+    <!-- Audio player with image and text -->
+    <div class="audio-container">
+      <img src="/image/all2.jpg" alt="Music Image">
+      <div>
+        <p>Mr.Perfect</p>
+        <audio controls>
+          <source src="/audio/1- Mr. Perfect-SenSongsMp3.Co.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <img src="/image/nani1.jpg" alt="Music Image">
+      <div>
+        <p>Odiyamma</p>
+        <audio controls>
+          <source src="/audio/Odiyamma.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <img src="/image/mahi1.jpg" alt="Music Image">
+      <div>
+        <p>Kurchi Madathapetti</p>
+        <audio controls>
+          <source src="/audio/Kurchi Madathapetti.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <div class="audio-container">
+        <img src="/image/mahi2.jpg" alt="Music Image">
+        <div>
+          <p>Oh My Baby</p>
+          <audio controls>
+            <source src="/audio/Oh My Baby.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/sajja1.jpg" alt="Music Image">
+        <div>
+          <p>Poolamme Pilla</p>
+          <audio controls>
+            <source src="/audio/Poolamme Pilla.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+        <img src="/image/karthi1.jpg" alt="Music Image">
+        <div>
+          <p>Inthalo Ennenni Vinthalo</p>
+          <audio controls>
+            <source src="/audio/03 - Inthalo Ennenni Vinthalo Male.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/nikil1.jpg" alt="Music Image">
+        <div>
+          <p>Saripovu</p>
+          <audio controls>
+            <source src="/audio/02 - Saripovu.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+        <img src="/image/allu3.jpg" alt="Music Image">
+        <div>
+          <p>Ring Ring</p>
+          <audio controls>
+            <source src="/audio/4-Ring Ringa-SenSongsMp3.Co.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/allu4.jpg" alt="Music Image">
+        <div>
+          <p>My Love Is Gone</p>
+          <audio controls>
+            <source src="/audio/6-My Love Is Gone-SenSongsMp3.Co.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/allu5.jpg" alt="Music Image">
+        <div>
+          <p>Karige Loga</p>
+          <audio controls>
+            <source src="/audio/7-Karige Loga (D-Plugged)e-SenSongsMp3.Co.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+          <img src="/image/kushi1.jpg" alt="Music Image">
+          <div>
+            <p>Aradhya</p>
+            <audio controls>
+              <source src="/audio/Aradhya.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+    
+        <div class="audio-container">
+          <img src="/image/nani2.jpg" alt="Music Image">
+          <div>
+            <p>Chedhu Nijam</p>
+            <audio controls>
+              <source src="/audio/Chedhu Nijam.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio-container">
+          <img src="/image/mad1.jpg" alt="Music Image">
+          <div>
+            <p>College Papa</p>
+            <audio controls>
+              <source src="/audio/College Papa.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        
+        <div class="audio-container">
+          <img src="/image/mad2.jpg" alt="Music Image">
+          <div>
+            <p>Nuvvu Navvukuntu</p>
+            <audio controls>
+              <source src="/audio/Nuvvu Navvukuntu.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        
+        <div class="audio-container">
+          <img src="/image/sajja3.jpg" alt="Music Image">
+          <div>
+            <p>Raghunandana</p>
+            <audio controls>
+              <source src="/audio/Raghunandana.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio-container">
+          <img src="/image/tillu1.jpg" alt="Music Image">
+          <div>
+            <p>Radhika</p>
+            <audio controls>
+              <source src="/audio/Radhika.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        
+        <div class="audio-container">
+          <img src="/image/tillu2.jpg" alt="Music Image">
+          <div>
+            <p>Ticket Eh Konakunda</p>
+            <audio controls>
+              <source src="/audio/Ticket Eh Konakunda.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        
+        <div class="audio-container">
+          <img src="/image/darl1.jpg" alt="Music Image">
+          <div>
+            <p>Neeve</p>
+            <audio controls>
+              <source src="/audio/Neeve-SenSongsMp3.Co.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serverless Music App</title>
+  <link rel="icon" href="https://cdn3d.iconscout.com/3d/free/thumb/free-music-5148289-4299205.png?f=webp">
+  <style>
+    body {
+      background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210918/pngtree-note-purple-gradient-watercolor-symbol-decorates-background-image_903017.png");
+      background-repeat: no-repeat;
+      background-size: cover; 
+      margin: 0;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      text-align: center;
+      color: blueviolet;
+      margin-bottom: 30px;
+    }
+    .audio-container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+.audio-container:hover {
+  transform: translateY(-5px); /* Move the container up on hover */
+}
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 2px solid #fff;
+    }
+
+    p {
+      margin: 0;
+      color: blueviolet;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    audio {
+      margin-left: auto;
+    }
+
+    .audio-players {
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+      justify-content: center; /* Center items horizontally */
+      gap: 20px; /* Add spacing between audio players */
+    }
+  </style>
+</head>
+<body>
+  <h1>HINDI SONGS</h1>
+
+  <!-- Container for audio players -->
+  <div class="audio-players">
+    <!-- Audio player with image and text -->
+    <div class="audio-container">
+      <img src="/image/sare ke fall sa.jpg" alt="Music Image">
+      <div>
+        <p>Saree Ke Fall Sa</p>
+        <audio controls>
+          <source src="/audio/Saree Ke Fall Sa - R... Rajkumar 128 Kbps.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <img src="/image/cham1.jpg" alt="Music Image">
+      <div>
+        <p>Cham Cham</p>
+        <audio controls>
+          <source src="/audio/Cham Cham - Baaghi 128 Kbps.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <img src="/image/chitti1.jpg" alt="Music Image">
+      <div>
+        <p>Chittiyaan Kalaiyaan</p>
+        <audio controls>
+          <source src="/audio/Chittiyaan Kalaiyaan - Roy 128 Kbps.mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="audio-container">
+      <img src="/image/kala1.jpg" alt="Music Image">
+      <div>
+        <p>Kala Chasma</p>
+        <audio controls>
+          <source src="/audio/Kala Chasma - (Raag.Fm).mp3" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <div class="audio-container">
+        <img src="/image/main tera.jpg" alt="Music Image">
+        <div>
+          <p>  Main Tera Boyfriend</p>
+          <audio controls>
+            <source src="/audio/Main Tera Boyfriend - Raabta 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/lungi dance.jpg" alt="Music Image">
+        <div>
+          <p>Lungi Dance</p>
+          <audio controls>
+            <source src="/audio/Lungi Dance_192(Ghantalele.com).mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+        <img src="/image/what jhumka.jpg" alt="Music Image">
+        <div>
+          <p>What Jhumka</p>
+          <audio controls>
+            <source src="/audio/What Jhumka - Rocky Aur Rani Kii Prem Kahaani 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/param.jpg" alt="Music Image">
+        <div>
+          <p>Param Sundari</p>
+          <audio controls>
+            <source src="/audio/Param Sundari - Mimi 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+        <img src="/image/dholi.jpg" alt="Music Image">
+        <div>
+          <p>Dholida</p>
+          <audio controls>
+            <source src="/audio/Dholida - Gangubai Kathiawadi 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/pinga.jpg" alt="Music Image">
+        <div>
+          <p>Pinga</p>
+          <audio controls>
+            <source src="/audio/Pinga - Bajirao Mastani 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/tera.jpg" alt="Music Image">
+        <div>
+          <p>Tere Vaaste</p>
+          <audio controls>
+            <source src="/audio/Tere Vaaste - Zara Hatke Zara Bachke 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+  
+      <div class="audio-container">
+        <img src="/image/ramleela.jpg" alt="Music Image">
+        <div>
+          <p>Nagada Sang Dhol</p>
+          <audio controls>
+            <source src="/audio/Nagada Sang Dhol - Goliyon Ki Raasleela Ram Leela 128 Kbps.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="audio-container">
+          <img src="/image/chikini.jpg" alt="Music Image">
+          <div>
+            <p>Chikni Chameli</p>
+            <audio controls>
+              <source src="/audio/Chikni Chameli - Agneepath 128 Kbps.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+    
+        <div class="audio-container">
+          <img src="/image/ek dil.jpg" alt="Music Image">
+          <div>
+            <p>Ek Dil Ek Jaan</p>
+            <audio controls>
+              <source src="/audio/Ek Dil Ek Jaan - Padmaavat 128 Kbps.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio-container">
+          <img src="/image/ghoomari.jpg" alt="Music Image">
+          <div>
+            <p>ghoomar</p>
+            <audio controls>
+              <source src="/audio/Ghoomar - Padmaavat 128 Kbps.mp3" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+        <div class="audio-container">
+            <img src="/image/barso.jpg" alt="Music Image">
+            <div>
+              <p>Barso Re</p>
+              <audio controls>
+                <source src="/audio/Barso Re - Guru 128 Kbps.mp3" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          <div class="audio-container">
+            <img src="/image/kam.jpg" alt="Music Image">
+            <div>
+              <p>Kamariya</p>
+              <audio controls>
+                <source src="/audio/Kamariya - Mitron 128 Kbps.mp3" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+          <div class="audio-container">
+            <img src="/image/ratna.jpg" alt="Music Image">
+            <div>
+              <p>Raataan Lambiyan</p>
+              <audio controls>
+                <source src="/audio/Raataan Lambiyan - Shershaah 128 Kbps.mp3" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+  </div>
+</body>
+</html>
